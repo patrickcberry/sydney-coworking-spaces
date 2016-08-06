@@ -32,15 +32,21 @@ function initMap() {
 
   for (i = 0; i < locationData.length; i++ ) {
 
+  	console.log("For loop: " + i );
+
 	infoWindow = new google.maps.InfoWindow({
 		content: locationData[i].content
 	});
+
+	console.log(infoWindow);
 	
 	marker = new google.maps.Marker({
 	  	position: locationData[i].position,
 	  	title: locationData[i].title,
 	    map: map
   	});
+
+	console.log(marker);
 
 	marker.addListener('click', function(){
 		infoWindow.open(map, marker);
