@@ -18,6 +18,17 @@
     <!--<link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">-->
 
     <title>Sydney Coworking Spaces</title>
+
+    <style>
+      #map {
+        height: 50%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: red;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -36,6 +47,11 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+
+        <h3>Locations</h3>
+        <p>Interactiove map of coworking space locations ... </p>
+        <div id="map"></div>
+
 
         <h3><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
@@ -64,7 +80,7 @@
     </div>
 
 
-    <div id="map"></div>
+    
     <script>
       var map;
       function initMap() {
