@@ -31,16 +31,16 @@ function initMap() {
   });
 
   for (i = 0; i < locationData.length; i++ ) {
-	
-	marker = new google.maps.Marker({
-  	position: locationData[i].position,
-  	title: locationData[i].title,
-    map: map,
-  	});
 
 	infoWindow = new google.maps.InfoWindow({
 		content: locationData[i].content
 	});
+	
+	marker = new google.maps.Marker({
+	  	position: locationData[i].position,
+	  	title: locationData[i].title,
+	    map: map
+  	});
 
 	marker.addListener('click', function(){
 		infoWindow.open(map, marker);
