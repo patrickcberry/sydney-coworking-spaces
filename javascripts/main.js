@@ -30,8 +30,6 @@ function initMap() {
     zoom: 11
   });
 
-  var marker;
-
   for (i = 0; i < locationData.length; i++ ) {
 	
 	var marker = new google.maps.Marker({
@@ -41,7 +39,7 @@ function initMap() {
   	});
 
 	var infoWindow = new google.maps.InfoWindow({
-		content: locationData[i]
+		content: locationData[i].content
 	});
 
 	marker.addListener('click', function(){
