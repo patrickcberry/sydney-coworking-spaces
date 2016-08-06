@@ -28,7 +28,7 @@ function initMap() {
     zoom: 11
   });
 
-  map.infoWindow = new google.maps.InfoWindow();
+  var infoWindow = new google.maps.InfoWindow();
 
   for (i = 0; i < locationData.length; i++ ) {
 	
@@ -39,10 +39,10 @@ function initMap() {
 	    content: locationData[i].content
   	});
 
-	google.maps.event.addListener(marker,'click', function( map, marker, marker.content ){
+	google.maps.event.addListener(marker,'click', function( map, marker ){
 		console.log('Marker clicked');
-		map.infoWindow.content = marker.content;
-		map.infoWindow.open(map,marker);
+		infoWindow.setContent(marker.content);
+		infoWindow.open(map,marker);
 	});
   }    	
 }
