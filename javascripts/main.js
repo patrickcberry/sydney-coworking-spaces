@@ -39,7 +39,7 @@ function initMap() {
 	    content: locationData[i].content
   	});
 
-	google.maps.event.addListener(marker,'click', function( map, marker ){
+	google.maps.event.addListener(Marker,'click', function( map, marker ){
 		console.log('Marker clicked');
 		console.log(marker);
 		console.log(marker.content);
