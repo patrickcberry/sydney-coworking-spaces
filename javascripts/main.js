@@ -10,7 +10,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: {lat: -33.714056, lng: 151.054259},
     map: map,
-    title: "Home \n34 Wisteria Crescent\nCherrybrook"
+    title: "HomeX \n34 Wisteria Crescent\nCherrybrook"
   });  
 
 }
