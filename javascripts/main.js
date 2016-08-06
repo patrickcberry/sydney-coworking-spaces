@@ -30,26 +30,20 @@ function initMap() {
     zoom: 11
   });
 
+  map.infoWindow = new new google.maps.InfoWindow();
+
   for (i = 0; i < locationData.length; i++ ) {
-
-  	console.log("For loop: " + i );
-
-	infoWindow = new google.maps.InfoWindow({
-		content: locationData[i].content
-	});
-
-	console.log(infoWindow);
 	
 	marker = new google.maps.Marker({
 	  	position: locationData[i].position,
 	  	title: locationData[i].title,
-	    map: map
+	    map: map,
+	    content: locationData[i].content
   	});
 
-	console.log(marker);
-
-	marker.addListener('click', function(){
-		infoWindow.open(map, marker);
+	google.maps.events.addListener(marker,'click', function( map, marker ){
+		map.infoWindow.setContent(marker.content);
+		map.infoWindow.open(map,marker);
 	});
   }    	
 }
