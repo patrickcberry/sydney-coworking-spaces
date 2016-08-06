@@ -44,8 +44,8 @@ function initMap() {
 		//console.log(marker);
 		console.log(this.title);
 		console.log(this.content);
-		//infoWindow.setContent(marker.content);
-		//infoWindow.open(map,marker);
+		infoWindow.setContent(this.content);
+		infoWindow.open(map,this);
 	});
   }    	
 }
