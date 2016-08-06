@@ -1,5 +1,3 @@
-console.log('This would be the main JS file.');
-
 // Below is the data for each co-working space location
 
 var locationData = [
@@ -42,6 +40,7 @@ function initMap() {
   	});
 
 	map.addListener(marker,'click', function( map, marker ){
+		console.log('Marker clicked');
 		map.infoWindow.setContent(marker.content);
 		map.infoWindow.open(map,marker);
 	});
