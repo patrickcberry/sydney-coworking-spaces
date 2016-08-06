@@ -1,7 +1,7 @@
 console.log('This would be the main JS file.');
 
 
-var locationData = {
+var locationData = [
 	{
 		title: 		"Home",
 		position: 	{lat: -33.714056, lng: 151.054259},
@@ -14,7 +14,7 @@ var locationData = {
 		title: 		"Paramatta",
 		position: 	{lat: -33.813676, lng: 151.007102},
 	}
-}
+]
 
 
 // -33.868641, 151.196729 Pyrmont
