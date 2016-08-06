@@ -41,6 +41,8 @@ function initMap() {
 
 	google.maps.event.addListener(marker,'click', function( map, marker ){
 		console.log('Marker clicked');
+		console.log(marker);
+		console.log(marker.content);
 		infoWindow.setContent(marker.content);
 		infoWindow.open(map,marker);
 	});
