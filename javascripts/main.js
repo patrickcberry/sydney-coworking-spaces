@@ -32,13 +32,13 @@ function initMap() {
 
   for (i = 0; i < locationData.length; i++ ) {
 	
-	var marker = new google.maps.Marker({
+	marker = new google.maps.Marker({
   	position: locationData[i].position,
   	title: locationData[i].title,
     map: map,
   	});
 
-	var infoWindow = new google.maps.InfoWindow({
+	infoWindow = new google.maps.InfoWindow({
 		content: locationData[i].content
 	});
 
