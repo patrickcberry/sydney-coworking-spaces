@@ -30,7 +30,7 @@ function initMap() {
     zoom: 11
   });
 
-  map.infoWindow = new new google.maps.InfoWindow();
+  map.infoWindow = new google.maps.InfoWindow();
 
   for (i = 0; i < locationData.length; i++ ) {
 	
