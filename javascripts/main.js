@@ -32,14 +32,14 @@ function initMap() {
 
   for (i = 0; i < locationData.length; i++ ) {
 	
-	marker = new google.maps.Marker({
+	var marker = new google.maps.Marker({
 	  	position: locationData[i].position,
 	  	title: locationData[i].title,
 	    map: map,
 	    content: locationData[i].content
   	});
 
-	google.maps.event.addListener('marker' + i,'click', function(){
+	google.maps.event.addListener(marker,'click', function(){
 		console.log('Marker clicked');
 		//console.log(marker);
 		console.log(this.title);
