@@ -35,7 +35,8 @@ function initMap() {
   	position: locationData[i].position,
   	title: locationData[i].title,
     map: map,
-  });    	
+  	});
+  }    	
 
   //var marker = new google.maps.Marker({
 
