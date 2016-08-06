@@ -42,9 +42,10 @@ function initMap() {
 	google.maps.event.addListener(marker,'click', function(){
 		console.log('Marker clicked');
 		console.log(marker);
+		console.log(marker.title);
 		console.log(marker.content);
-		infoWindow.setContent(marker.content);
-		infoWindow.open(map,marker);
+		//infoWindow.setContent(marker.content);
+		//infoWindow.open(map,marker);
 	});
   }    	
 }
