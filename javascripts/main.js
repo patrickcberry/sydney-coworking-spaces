@@ -28,14 +28,23 @@ function initMap() {
     zoom: 11
   });
 
-  var marker = new google.maps.Marker({
+  var marker;
 
-  	position: locationData[1].position,
-  	title: locationData[1].title,
+  for (i = 0; i < locationData.length; i++ ) {
+	marker = new google.maps.Marker({
+  	position: locationData[i].position,
+  	title: locationData[i].title,
+    map: map,
+  });    	
+
+  //var marker = new google.maps.Marker({
+
+  	//position: locationData[1].position,
+  	//title: locationData[1].title,
 
     //position: {lat: -33.714056, lng: 151.054259},
     //title: "Home\n34 Wisteria Crescent\nCherrybrook"
-    map: map,
-  });  
+    //map: map,
+  //});  
 
 }
