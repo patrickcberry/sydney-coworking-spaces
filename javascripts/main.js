@@ -9,7 +9,7 @@ function initMap() {
   });
 
   var infoWindow = new google.maps.InfoWindow();
-  var bounds = new google.maps.LatLngBounds();
+  bounds = new google.maps.LatLngBounds();
 
   for (i = 0; i < locationData.length; i++ ) {
 	
