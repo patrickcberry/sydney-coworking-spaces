@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<!-- AIzaSyDu4ASTg8x8FMkE76ywBkHthVo0xMHJwYc -->
+
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Sydney Coworking Spaces : List of coworking spaces in Sydney, Australia">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/styles.css">
+    <script type="text/javascript" src="javascripts/main.js"></script>
+
+    <title>Sydney Coworking Spaces</title>
+
+    <style>
+      #map {
+        height: 450px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/patrickcberry/sydney-coworking-spaces">View on GitHub</a>
+
+          <h1 id="project_title">Sydney Coworking Spaces</h1>
+          <h2 id="project_tagline">List of coworking spaces in Sydney, Australia</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="infopane"></div>
+
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+        <h3><a id="locations" class="anchor" href="#locations"></a>Locations</h3>
+        <p>Interactive map of coworking space locations</p>
+        <div id="map"></div>
+
+        <h3><a id="coworking-spaces" class="anchor" href="#coworking-spaces"></a>Coworking spaces</h3>
+        <p>... brief description of co-working spaces ...</p>
+
+        <h3><a id="additions-changes" class="anchor" href="#additions-changes"></a>Additions and Changes</h3>
+        <p>.... notify or ... fork the project and submit a pull request ...</p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Sydney Coworking Spaces maintained by <a href="https://github.com/patrickcberry">patrickcberry</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+  </body>
+
+  <!-- Google Map -->
+
+  <script>
+
+  </script>
+  
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu4ASTg8x8FMkE76ywBkHthVo0xMHJwYc&callback=initMap" async defer></script>
+
+</html>

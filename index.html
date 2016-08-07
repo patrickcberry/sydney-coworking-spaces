@@ -1,81 +1,107 @@
 <!DOCTYPE html>
-
-<!-- AIzaSyDu4ASTg8x8FMkE76ywBkHthVo0xMHJwYc -->
-
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Sydney Coworking Spaces : List of coworking spaces in Sydney, Australia">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/styles.css">
-    <script type="text/javascript" src="javascripts/main.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="List of coworking spaces in Sydney, Australia">
+    <meta name="author" content="Patrick Berry">
+    <link rel="icon" href="../../favicon.ico">
 
     <title>Sydney Coworking Spaces</title>
 
-    <style>
-      #map {
-        height: 450px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="stylesheets/dashboard.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="javascripts/main.js"></script>    
   </head>
 
   <body>
 
-    <!-- HEADER -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Sydney Coworking Spaces</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+          <!--
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          -->
+          </ul>
+          <!--
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+          -->
+        </div>
+      </div>
+    </nav>
 
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/patrickcberry/sydney-coworking-spaces">View on GitHub</a>
+    <div class="container-fluid">
+      <div class="row">
 
-          <h1 id="project_title">Sydney Coworking Spaces</h1>
-          <h2 id="project_tagline">List of coworking spaces in Sydney, Australia</h2>
+        <!-- Sidebar -->
 
-        </header>
+        <div class="col-sm-3 col-md-3 sidebar">
+          
+          <h3><a id="locations" class="anchor" href="#locations"></a>Locations</h3>
+          <p>Interactive map of coworking space locations</p>
+          
+          <h3><a id="coworking-spaces" class="anchor" href="#coworking-spaces"></a>Coworking spaces</h3>
+          <p>... brief description of co-working spaces ...</p>
+
+          <h3><a id="additions-changes" class="anchor" href="#additions-changes"></a>Additions and Changes</h3>
+          <p>.... notify or ... fork the project and submit a pull request ...</p>
+
+        </div>
+
+        <!-- Application Body -->
+
+        <div class="col-sm-9 col-sm-offset-3 col-md-9 col-md-offset-3 main">
+          <h1 class="page-header">Locations</h1>
+          <div id="map"></div>
+        </div>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
-    <div class="infopane"></div>
-
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-
-        <h3><a id="locations" class="anchor" href="#locations"></a>Locations</h3>
-        <p>Interactive map of coworking space locations</p>
-        <div id="map"></div>
-
-        <h3><a id="coworking-spaces" class="anchor" href="#coworking-spaces"></a>Coworking spaces</h3>
-        <p>... brief description of co-working spaces ...</p>
-
-        <h3><a id="additions-changes" class="anchor" href="#additions-changes"></a>Additions and Changes</h3>
-        <p>.... notify or ... fork the project and submit a pull request ...</p>
-
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Sydney Coworking Spaces maintained by <a href="https://github.com/patrickcberry">patrickcberry</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu4ASTg8x8FMkE76ywBkHthVo0xMHJwYc&callback=initMap" async defer></script>
   </body>
-
-  <!-- Google Map -->
-
-  <script>
-
-  </script>
-  
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu4ASTg8x8FMkE76ywBkHthVo0xMHJwYc&callback=initMap" async defer></script>
-
 </html>
