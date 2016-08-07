@@ -89,6 +89,10 @@
           <div id="details-info">
             <p>Click on any marker in the map to view location details</p>
           </div>  
+
+          <!-- Details below are updated dynamically dependent upon which map
+               marker has been clicked -->
+
           <div id="details" hidden>
             <p id="details-title">title</p>
             <p id="details-desc">desc</p>
@@ -143,6 +147,8 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu4ASTg8x8FMkE76ywBkHthVo0xMHJwYc&callback=initMap" async defer></script>
+    <!-- Google Maps 
+    ================================================== -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDu4ASTg8x8FMkE76ywBkHthVo0xMHJwYc&callback=initMap" async defer></script>
   </body>
 </html>

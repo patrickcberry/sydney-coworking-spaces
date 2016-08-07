@@ -35,20 +35,18 @@ function initMap() {
 		$("#details-url").html("<a href='" + locationData[this.idx].url + "' target='_blank'>Website</a>");
 
 		if ( locationData[this.idx].desc) {
+			// desc property exists
 			if ( locationData[this.idx].desc.length > 0 ) {
 				$("#details-desc").text(locationData[this.idx].desc);
 				$("#details-desc").show();
 			} else {
+				// desc is a zero character length string -> do not display
 				$("#details-desc").hide();
-			}
-			
+			}	
 		} else {
+			// desc property is not defined -> do not display
 			$("#details-desc").hide();			
 		}
-
-
-
-
 	});
 
 	bounds.extend(marker.getPosition());
@@ -66,6 +64,8 @@ function initMap() {
   //remove one zoom level to ensure no marker is on the edge. 	
   map.setZoom(map.getZoom()-1);
 }
+
+// Center the map - called from button
 
 function centerMap(){
  //center the map to the geometric center of all markers

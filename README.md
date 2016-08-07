@@ -19,21 +19,11 @@ To update the spaces listed on this site, do one of the following,
 ## Status
 
 To do,
-- [X] Populate inital data 
-- [X] Info window data displayed
-- [X] Display detailed data in the sidebar when map marker is clicked
-- [X] Complete text in sidebase
-- [X] Detailed display add - Description
-- [X] Populate detailed data
-- [X] Zoom and centre map to display all markers. [see](http://stackoverflow.com/questions/19304574/center-set-zoom-of-map-to-cover-all-visible-markers)
-- [X] Add a button to recenter the display
 - [ ] Add a list view
-- [ ] Add an About display/popup
-- [X] Complete update instructions (on published page)
-- [X] Tidy up this readme file
-- [ ] Add site fav icon
-- [ ] Clean up all files that are not needed
 - [ ] Switch to load Bootstrap from a CDN
 - [ ] Add a search function
+- [ ] Expand the data stored for each location
+- [ ] Add map filtering by location attributes
+- [ ] Move these items into issues
 
 

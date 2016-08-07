@@ -1,3 +1,5 @@
+// The locationData contains all of the application data
+
 var locationData = [];
 
 locationData.push({
