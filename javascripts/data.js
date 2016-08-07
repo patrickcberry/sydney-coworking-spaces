@@ -31,7 +31,7 @@ locationData.push({
 		address: 	"Level 3, 55 Pyrmont Bridge Road, Pyrmont, NSW",
 		url: 		"http://www.wotsoworkspace.com.au/"
 });
-
+/*
 locationData.push({
 		title: 		"WOTSO WorkSpace",
 		position: 	{lat: -33.753232, lng: 150.694554 },
@@ -39,7 +39,7 @@ locationData.push({
 		address: 	"95b Station Street, Penrith, NSW 2750",
 		url: 		"http://www.wotsoworkspace.com.au/"
 });
-
+*/
 
 locationData.push({
 		title: 		"Fishburners",
