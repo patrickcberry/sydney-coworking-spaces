@@ -13,14 +13,18 @@ to gain familarity with,
 
 To do,
 - [X] Populate inital data 
-- [ ] Info window data displayed
-- [ ] Display detailed data in the sidebar when map marker is clicked
+- [X] Info window data displayed
+- [X] Display detailed data in the sidebar when map marker is clicked
 - [X] Complete text in sidebase
 - [ ] Populate detailed data
 - [X] Zoom and centre map to display all markers. [see](http://stackoverflow.com/questions/19304574/center-set-zoom-of-map-to-cover-all-visible-markers)
+- [ ] Add a button to recenter the display
+- [ ] Add a list view
 - [ ] Add an About disply/popup
 - [ ] Complete update instructions (on published page)
 - [ ] Tidy up this readme file
+- [ ] Clean up all files that are note needed
+- [ ] Switch to load Bootstrap from a CDN
 
 ## Update instructions
 
