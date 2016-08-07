@@ -309,3 +309,12 @@ locationData.push({
 		desc: 		"Originating in Amsterdam, Spaces was built on the idea that success breeds more success. We want to redefine the way work is done. That’s why we’ve cultivated a community of thinkers, achievers and imagineers. Plug into our energy and watch your world accelerate."
 });
 
+locationData.push({
+		title: 		"NewportNet",
+		position: 	{lat:-33.655073, lng: 151.319415},
+		content:    "NewportNet",
+		address: 	"341 Barrenjoey Road, Newport NSW",
+		url: 		"http://newportnet.com.au/",
+		desc: 		"Coworking is a global trend where freelancers, entrepreneurs, other mobile and home-based workers who come together to break the isolation and distraction of the home office and work independently in a shared working environment."
+});
+
