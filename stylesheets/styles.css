@@ -1,3 +1,5 @@
+/* GitHub Link */
+
 #forkme_banner {
    display: block;
    /*position: absolute;*/
@@ -14,3 +16,12 @@
    border-bottom-left-radius: 2px;
    border-bottom-right-radius: 2px;
  }
+
+/* Google Map */
+
+#map {
+     height: 700px;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+}
