@@ -12,15 +12,15 @@ to gain familarity with,
 ## Status
 
 To do,
--[ ] Populate inital data 
--[ ] Info window data displayed
--[ ] Display detailed data in the sidebar when map marker is clicked
--[ ] Complete text in sidebase
--[ ] Populate detailed data
--[ ] Zoom and centre map to display all markers
--[ ] Add an About disply/popup
--[ ] Complete update instructions
--[ ] Tidy up this readme file
+- [ ] Populate inital data 
+- [ ] Info window data displayed
+- [ ] Display detailed data in the sidebar when map marker is clicked
+- [ ] Complete text in sidebase
+- [ ] Populate detailed data
+- [ ] Zoom and centre map to display all markers
+- [ ] Add an About disply/popup
+- [ ] Complete update instructions
+- [ ] Tidy up this readme file
 
 ## Update instructions
 
