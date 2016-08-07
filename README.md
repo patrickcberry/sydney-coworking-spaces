@@ -16,9 +16,10 @@ To do,
 - [X] Info window data displayed
 - [X] Display detailed data in the sidebar when map marker is clicked
 - [X] Complete text in sidebase
+- [ ] Detailed display add - Description
 - [ ] Populate detailed data
 - [X] Zoom and centre map to display all markers. [see](http://stackoverflow.com/questions/19304574/center-set-zoom-of-map-to-cover-all-visible-markers)
-- [ ] Add a button to recenter the display
+- [X] Add a button to recenter the display
 - [ ] Add a list view
 - [ ] Add an About disply/popup
 - [ ] Complete update instructions (on published page)

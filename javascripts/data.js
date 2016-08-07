@@ -13,7 +13,8 @@ locationData.push({
 		position: 	{lat: -33.862894, lng: 151.088812},
 		content:    "WOTSO WorkSpace (North Strathfield)",
 		address: 	"Level 2, 5 George St, North Strathfield, NSW 2137",
-		url: 		"http://www.wotsoworkspace.com.au/"
+		url: 		"http://www.wotsoworkspace.com.au/",
+		desc: 		"WOTSO WorkSpace provides serviced offices, meeting/event space and inclusive coworking spaces, all on flexible short-term agreements."
 });
 
 locationData.push({
@@ -21,7 +22,8 @@ locationData.push({
 		position: 	{lat: -33.831806, lng: 151.223375},
 		content:    "WOTSO WorkSpace (Neutral Bay)",
 		address: 	"Level 1, 50 Yeo Street, Neutral Bay NSW 2089",
-		url: 		"http://www.wotsoworkspace.com.au/"
+		url: 		"http://www.wotsoworkspace.com.au/",
+		desc: 		"WOTSO WorkSpace provides serviced offices, meeting/event space and inclusive coworking spaces, all on flexible short-term agreements."
 });
 
 locationData.push({
