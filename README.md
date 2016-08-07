@@ -28,7 +28,7 @@ To do,
 - [X] Zoom and centre map to display all markers. [see](http://stackoverflow.com/questions/19304574/center-set-zoom-of-map-to-cover-all-visible-markers)
 - [X] Add a button to recenter the display
 - [ ] Add a list view
-- [ ] Add an About disply/popup
+- [ ] Add an About display/popup
 - [X] Complete update instructions (on published page)
 - [X] Tidy up this readme file
 - [ ] Add site fav icon
