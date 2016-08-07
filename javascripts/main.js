@@ -33,6 +33,22 @@ function initMap() {
 		$("#details-title").text(locationData[this.idx].title);
 		$("#details-address").text(locationData[this.idx].address);
 		$("#details-url").html("<a href='" + locationData[this.idx].url + "' target='_blank'>Website</a>");
+
+		if ( locationData[this.idx].desc) {
+			if ( locationData[this.idx].desc.length > 0 ) {
+				$("#details-desc").text(locationData[this.idx].desc);
+				$("#details-desc").show();
+			} else {
+				$("#details-desc").hide();
+			}
+			
+		} else {
+			$("#details-desc").hide();			
+		}
+
+
+
+
 	});
 
 	bounds.extend(marker.getPosition());
