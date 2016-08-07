@@ -36,6 +36,13 @@ function initMap() {
 	});
 
 	bounds.extend(marker.getPosition());
+
+	google.maps.event.addListener(infoWindow,'closeclick',function(){
+		$("#details-info").show();
+		$("#details").hide();		
+	});
+
+
   } 
   //center the map to the geometric center of all markers
   map.setCenter(bounds.getCenter());
