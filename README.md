@@ -17,7 +17,7 @@ To do,
 - [X] Display detailed data in the sidebar when map marker is clicked
 - [X] Complete text in sidebase
 - [X] Detailed display add - Description
-- [ ] Populate detailed data
+- [X] Populate detailed data
 - [X] Zoom and centre map to display all markers. [see](http://stackoverflow.com/questions/19304574/center-set-zoom-of-map-to-cover-all-visible-markers)
 - [X] Add a button to recenter the display
 - [ ] Add a list view
@@ -27,6 +27,7 @@ To do,
 - [ ] Add site fav icon
 - [ ] Clean up all files that are not needed
 - [ ] Switch to load Bootstrap from a CDN
+- [ ] Add a search function
 
 ## Update instructions
 

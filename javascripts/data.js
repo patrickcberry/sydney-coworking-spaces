@@ -180,77 +180,130 @@ locationData.push({
 		url: 		"http://westernsydney.edu.au/launch-pad/launch_pad",
 		decs: 		"Western Sydney University Launch Pad is a one-stop shop business and innovation support program that provides facilities, assistance and resources for startup and high growth technology based businesses in Western Sydney."
 });
-/*
+
 locationData.push({
-		title: 		"",
-		position: 	{lat: , lng: },
-		content:    "",
-		address: 	"",
-		url: 		"",
-		decs: 		""
+		title: 		"SME Village",
+		position: 	{lat: -33.833672, lng: 151.207099},
+		content:    "SME Village",
+		address: 	"Level 3, 1 James Place, North Sydney",
+		url: 		"http://www.smevillage.com.au/",
+		decs: 		"Whether you’re just starting, a seasoned entrepreneur, need workspace for your team, or just looking to get out of the house, SME Village Coworking North Sydney is ideal for you – discover Village Coworking with your free coworking day."
 });
 
 locationData.push({
-		title: 		"",
-		position: 	{lat: , lng: },
-		content:    "",
-		address: 	"",
-		url: 		"",
-		decs: 		""
+		title: 		"vibewire",
+		position: 	{lat: -33.877353, lng: 151.197787 },
+		content:    "vibewire",
+		address: 	"525 Harris St Ultimo 2007525 Harris St Ultimo 2007 ",
+		url: 		"http://vibewire.org/",
+		decs: 		"Vibewire is a youth-led Sydney not for profit. We’re here to be a launchpad for young people – to provide the resources, networks and programs needed to enable them to do awesome things."
 });
 
 locationData.push({
-		title: 		"",
-		position: 	{lat: , lng: },
-		content:    "",
-		address: 	"",
-		url: 		"",
-		decs: 		""
+		title: 		"Aura",
+		position: 	{lat: -33.889165, lng: 151.199089},
+		content:    "Aura",
+		address: 	"7 Hudson Street, Redfern",
+		url: 		"http://auracreative.com.au/home.html",
+		decs: 		"With two distinct floors combining an industrial warehouse and corporate office we have a space to suit your preference."
 });
 
 locationData.push({
-		title: 		"",
-		position: 	{lat: , lng: },
-		content:    "",
-		address: 	"",
-		url: 		"",
-		decs: 		""
+		title: 		"berrins",
+		position: 	{lat: -33.799652, lng: 151.285592},
+		content:    "berrins",
+		address: 	"Unit 2 Alton Building Manly",
+		url: 		"http://berrins.com/",
+		decs: 		"Here at berrins we believe that you choose your own adventure.  Come and collaborate with like-minded and creative individuals and design a business and life that you love."
 });
 
 locationData.push({
-		title: 		"",
-		position: 	{lat: , lng: },
-		content:    "",
-		address: 	"",
-		url: 		"",
-		decs: 		""
+		title: 		"The Commune",
+		position: 	{lat: -33.904136, lng: 151.181679 },
+		content:    "The Commune",
+		address: 	"160 Rochford Street, Erskineville NSW 2043",
+		url: 		"http://www.thecommune.co/",
+		decs: 		"COMMUNE offers resources designed to foster connectedness and collaboration within the creative industry. We provide co-working, photography studios, workshops and event spaces designed as a platform for Sydney’s creatives to be productive, showcase their work and engage with their local community and industry professionals."
 });
 
 locationData.push({
-		title: 		"",
-		position: 	{lat: , lng: },
-		content:    "",
-		address: 	"",
-		url: 		"",
-		decs: 		""
+		title: 		"protein studio",
+		position: 	{lat: -33.885991, lng: 151.211727},
+		content:    "protein studio",
+		address: 	"Level 3, 2 Lacey St, Surry Hills NSW 2010 Australia",
+		url: 		"http://www.protein-one.com/studio/",
+		decs: 		"A Creative Collaborative Space in the Heart of Surry Hills"
 });
 
 locationData.push({
-		title: 		"",
-		position: 	{lat: , lng: },
-		content:    "",
-		address: 	"",
-		url: 		"",
-		decs: 		""
+		title: 		"The Works",
+		position: 	{lat: -33.882928, lng: 151.190460},
+		content:    "The Works",
+		address: 	"62 Glebe Point Road, Glebe, NSW 2037",
+		url: 		"http://www.theworksglebe.com.au/page/Home",
+		decs: 		"The Works Glebe is a 3 level warehouse space for creative practitioners to design, make & exhibit their works to the general public. Located on bohemian Glebe Point Road, The Works provides affordable coworking, studio and retail space only 2km from the Sydney CBD. The Works Glebe aims to be the creative, cultural hub of Glebe and the Inner West."
 });
 
 locationData.push({
-		title: 		"",
-		position: 	{lat: , lng: },
-		content:    "",
-		address: 	"",
-		url: 		"",
-		decs: 		""
+		title: 		"Your Desk",
+		position: 	{lat: -33.871606, lng: 151.205839},
+		content:    "Your Desk (CBD)",
+		address: 	"204 Clarence St, Sydney",
+		url: 		"http://www.yourdesk.com.au/#spaces",
+		decs: 		"Your Desk is an innovative workspace, created in response to the increasingly diverse needs of the contemporary workforce. Old structures and rituals die-hard, as forward thinking businesses come around to new ways of thinking. Your Desk is a dynamic solution, a space which caters to the evolving needs of the contemporary professional."
 });
-*/
+
+locationData.push({
+		title: 		"Your Desk",
+		position: 	{lat: -33.880449, lng: 151.211129},
+		content:    "Your Desk (Surry Hills)",
+		address: 	"104 Commonwealth Street, Surry Hills",
+		url: 		"http://www.yourdesk.com.au/#spaces",
+		decs: 		"Your Desk is an innovative workspace, created in response to the increasingly diverse needs of the contemporary workforce. Old structures and rituals die-hard, as forward thinking businesses come around to new ways of thinking. Your Desk is a dynamic solution, a space which caters to the evolving needs of the contemporary professional."
+});
+
+locationData.push({
+		title: 		"Your Desk",
+		position: 	{lat: -33.888719, lng: 151.196865},
+		content:    "Your Desk (Darlinghurst)",
+		address: 	"Vine Street, Darlinghurst",
+		url: 		"http://www.yourdesk.com.au/#spaces",
+		decs: 		"Your Desk is an innovative workspace, created in response to the increasingly diverse needs of the contemporary workforce. Old structures and rituals die-hard, as forward thinking businesses come around to new ways of thinking. Your Desk is a dynamic solution, a space which caters to the evolving needs of the contemporary professional."
+});
+
+locationData.push({
+		title: 		"Work Club",
+		position: 	{lat: -33.869279, lng: 151.210129},
+		content:    "Work Club Sydney",
+		address: 	"Level 8, 99 Elizabeth Street, Sydney, NSW 2000",
+		url: 		"http://workclubglobal.com/sydney/",
+		decs: 		"Work Club Sydney is the hub for individual members or small teams of 1-3. Find focus in the library amongst law journals dating as far back as 1852, debate in one of the collaborative pods, work with your team in the ‘American diner’ or conduct cross-continent video calls in the boardroom overlooking views of the Supreme Court and Hyde Park. Hold events and lunches in the kitchen and dining area, or after hours with the lights dimmed low and any soundtrack you choose playing wirelessly through the Work Club music system."
+});
+
+locationData.push({
+		title: 		"CoSydney CoWorking",
+		position: 	{lat: -33.885711, lng: 151.197896},
+		content:    "CoSydney CoWorking",
+		address: 	"3 Blackfriars Street, Chippendale",
+		url: 		"http://cosydney.com.au/",
+		decs: 		"Our mission is to accelerate the success of Creative Entrepreneurs and Australia’s Creative Industry economy. We recognise the creative vigor necessary for Creative Entrepreneurs to innovate, to create, to share bold & engaging work, and to enrich both their own creative practices and local communities."
+});
+
+locationData.push({
+		title: 		"Aeona",
+		position: 	{lat:-33.886148, lng: 151.207460},
+		content:    "Aeona",
+		address: 	"1-9 Buckingham Street, Surry Hills",
+		url: 		"http://aeona.com.au/coworking-space-sydney/",
+		decs: 		"Aeona (pronounced Ay-o-na) was established in 2011 by Alexander and Benny Eisman as a co-working space for entrepreneurs and start-up businesses in Sydney, Australia.  Since 2011 the co-working space has grown into a business centre offering a wide array of services and facilities for start-up businesses in Australia."
+});
+
+locationData.push({
+		title: 		"Spaces",
+		position: 	{lat:-33.884647, lng: 151.217655},
+		content:    "Spaces",
+		address: 	"111 Flinders Street, Surry Hills",
+		url: 		"https://www.spacesworks.com/",
+		decs: 		"Originating in Amsterdam, Spaces was built on the idea that success breeds more success. We want to redefine the way work is done. That’s why we’ve cultivated a community of thinkers, achievers and imagineers. Plug into our energy and watch your world accelerate."
+});
 
