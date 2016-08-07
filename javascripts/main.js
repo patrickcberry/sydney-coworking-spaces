@@ -40,10 +40,6 @@ function initMap() {
   	});
 
 	google.maps.event.addListener(marker,'click', function(){
-		console.log('Marker clicked');
-		//console.log(marker);
-		console.log(this.title);
-		console.log(this.content);
 		infoWindow.setContent(this.content);
 		infoWindow.open(map,this);
 	});
