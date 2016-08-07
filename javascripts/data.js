@@ -13,7 +13,7 @@ locationData.push({
 });
 
 locationData.push({
-		title: 		"Paramatta",
+		title: 		"Paramatta X",
 		position: 	{lat: -33.813676, lng: 151.007102},
 		content:    "Paramatta content"
 });
