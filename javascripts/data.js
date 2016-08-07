@@ -76,7 +76,7 @@ locationData.push({
 locationData.push({
 		title: 		"The Workbench",
 		position: 	{lat: -33.880464, lng: 151.199924},
-		content:    "The Workbench",
+		content:    "The Workbench\n(Closed for maintenance)",
 		address: 	"Level 2, 645 Harris Street, Ultimo",
 		url: 		"http://theworkben.ch/",
 		decs: 		"Building closed for maintenance"
