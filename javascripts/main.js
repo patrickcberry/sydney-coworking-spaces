@@ -32,7 +32,7 @@ function initMap() {
 
 		$("#details-title").text(locationData[this.idx].title);
 		$("#details-address").text(locationData[this.idx].address);
-		$("#details-url").text(locationData[this.idx].url);
+		$("#details-url").html("<a href='" + locationData[this.idx].url + "' target='_blank'>Website</a>");
 	});
 
 	bounds.extend(marker.getPosition());
