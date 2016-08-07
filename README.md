@@ -29,7 +29,7 @@ To do,
 - [X] Add a button to recenter the display
 - [ ] Add a list view
 - [ ] Add an About disply/popup
-- [ ] Complete update instructions (on published page)
+- [X] Complete update instructions (on published page)
 - [X] Tidy up this readme file
 - [ ] Add site fav icon
 - [ ] Clean up all files that are not needed
