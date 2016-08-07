@@ -23,7 +23,8 @@ To do,
 - [ ] Add an About disply/popup
 - [ ] Complete update instructions (on published page)
 - [ ] Tidy up this readme file
-- [ ] Clean up all files that are note needed
+- [ ] Add site fav icon
+- [ ] Clean up all files that are not needed
 - [ ] Switch to load Bootstrap from a CDN
 
 ## Update instructions

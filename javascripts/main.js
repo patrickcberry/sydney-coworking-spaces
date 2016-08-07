@@ -50,3 +50,11 @@ function initMap() {
   //remove one zoom level to ensure no marker is on the edge. 	
   map.setZoom(map.getZoom()-1);
 }
+
+function centerMap(){
+ //center the map to the geometric center of all markers
+  map.setCenter(bounds.getCenter());
+  map.fitBounds(bounds);  
+  //remove one zoom level to ensure no marker is on the edge. 	
+  map.setZoom(map.getZoom()-1);
+}
