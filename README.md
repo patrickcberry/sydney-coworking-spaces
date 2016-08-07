@@ -12,7 +12,7 @@ to gain familarity with,
 ## Status
 
 To do,
-- [ ] Populate inital data 
+- [X] Populate inital data 
 - [ ] Info window data displayed
 - [ ] Display detailed data in the sidebar when map marker is clicked
 - [X] Complete text in sidebase

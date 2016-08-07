@@ -9,6 +9,7 @@ function initMap() {
   });
 
   var infoWindow = new google.maps.InfoWindow();
+  var bounds = new google.maps.LatLngBounds();
 
   for (i = 0; i < locationData.length; i++ ) {
 	
@@ -23,5 +24,12 @@ function initMap() {
 		infoWindow.setContent(this.content);
 		infoWindow.open(map,this);
 	});
-  }    	
+
+	bounds.extend(marker.getPosition());
+  } 
+  //center the map to the geometric center of all markers
+  map.setCentre(bounds.getCenter());
+  map.fitBounds(bounds);  
+  //remove one zoom level to ensure no marker is on the edge. 	
+  map.setZoom(map.getZoom()-1);
 }
