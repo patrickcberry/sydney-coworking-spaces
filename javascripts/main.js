@@ -17,12 +17,22 @@ function initMap() {
 	  	position: locationData[i].position,
 	  	title: locationData[i].title,
 	    map: map,
-	    content: locationData[i].content
+	    content: locationData[i].content,
+	    idx: i
   	});
 
 	google.maps.event.addListener(marker,'click', function(){
 		infoWindow.setContent(this.content);
 		infoWindow.open(map,this);
+
+		// Fill details 
+
+		$("#details-info").hide();
+		$("#details").show();
+
+		$("#details-title").text(locationData[this.idx].title);
+		$("#details-address").text(locationData[this.idx].address);
+		$("#details-url").text(locationData[this.idx].url);
 	});
 
 	bounds.extend(marker.getPosition());

@@ -17,7 +17,7 @@ To do,
 - [ ] Display detailed data in the sidebar when map marker is clicked
 - [X] Complete text in sidebase
 - [ ] Populate detailed data
-- [ ] Zoom and centre map to display all markers. [see](http://stackoverflow.com/questions/19304574/center-set-zoom-of-map-to-cover-all-visible-markers)
+- [X] Zoom and centre map to display all markers. [see](http://stackoverflow.com/questions/19304574/center-set-zoom-of-map-to-cover-all-visible-markers)
 - [ ] Add an About disply/popup
 - [ ] Complete update instructions (on published page)
 - [ ] Tidy up this readme file

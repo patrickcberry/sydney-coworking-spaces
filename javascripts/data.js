@@ -31,7 +31,7 @@ locationData.push({
 		address: 	"Level 3, 55 Pyrmont Bridge Road, Pyrmont, NSW",
 		url: 		"http://www.wotsoworkspace.com.au/"
 });
-/*
+
 locationData.push({
 		title: 		"WOTSO WorkSpace",
 		position: 	{lat: -33.753232, lng: 150.694554 },
@@ -39,7 +39,7 @@ locationData.push({
 		address: 	"95b Station Street, Penrith, NSW 2750",
 		url: 		"http://www.wotsoworkspace.com.au/"
 });
-*/
+
 
 locationData.push({
 		title: 		"Fishburners",
@@ -48,23 +48,3 @@ locationData.push({
 		address: 	"608 Harris Street, Ultimo 2007",
 		url: 		"http://fishburners.org"
 });
-
-/*
-var locationData = [
-	{
-		title: 		"Home",
-		position: 	{lat: -33.714056, lng: 151.054259},
-		content:    "Home content"
-	},
-	{
-		title: 		"Pyrmont",
-		position: 	{lat: -33.868641, lng: 151.196729},
-		content:    "Pyrmont content"
-	},
-	{
-		title: 		"Paramatta",
-		position: 	{lat: -33.813676, lng: 151.007102},
-		content:    "Paramatta content"
-	}
-]
-*/
