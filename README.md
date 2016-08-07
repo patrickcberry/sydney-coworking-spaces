@@ -24,6 +24,7 @@ To do,
 - [ ] Add a search function
 - [ ] Expand the data stored for each location
 - [ ] Add map filtering by location attributes
+- [ ] Incorporate Google Analytics (as a learning exercise)
 - [ ] Move these items into issues
 
 
