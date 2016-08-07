@@ -1,10 +1,12 @@
 #forkme_banner {
    display: block;
-   position: absolute;
+   /*position: absolute;*/
    top:0;
-   right: 10px;
+   /*right: 10px;*/
    z-index: 10;
-   padding: 10px 50px 10px 10px;
+   /*padding: 10px 50px 10px 10px;*/
+   padding-right: 50px;
+
    color: #fff;
    background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
    font-weight: 700;
