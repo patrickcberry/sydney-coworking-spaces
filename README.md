@@ -27,6 +27,6 @@ To do,
 ... to be completed ...
 + Fork the project on [GitHub](https://github.com/patrickcberry/sydney-coworking-spaces), update and submit a pull request
 + Raise an issue on the project on [GitHub](https://github.com/patrickcberry/sydney-coworking-spaces/issues)
-+ Email (@patrickcberry) with your request
++ [Email](@patrickcberry) with your request
 
 
