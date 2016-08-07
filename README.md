@@ -15,11 +15,11 @@ To do,
 - [ ] Populate inital data 
 - [ ] Info window data displayed
 - [ ] Display detailed data in the sidebar when map marker is clicked
-- [ ] Complete text in sidebase
+- [X] Complete text in sidebase
 - [ ] Populate detailed data
 - [ ] Zoom and centre map to display all markers
 - [ ] Add an About disply/popup
-- [ ] Complete update instructions
+- [ ] Complete update instructions (on published page)
 - [ ] Tidy up this readme file
 
 ## Update instructions
