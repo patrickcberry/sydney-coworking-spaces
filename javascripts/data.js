@@ -13,9 +13,17 @@ locationData.push({
 });
 
 locationData.push({
-		title: 		"Paramatta X",
+		title: 		"Paramatta",
 		position: 	{lat: -33.813676, lng: 151.007102},
 		content:    "Paramatta content"
+});
+
+locationData.push({
+		title: 		"Fishburners",
+		position: 	{lat: -33.813676, lng: 151.007102},
+		content:    "Fishburners",
+		address: 	"608 Harris Street, Ultimo 2007",
+		url: 		"http://fishburners.org"
 });
 
 /*
