@@ -318,3 +318,12 @@ locationData.push({
 		desc: 		"Coworking is a global trend where freelancers, entrepreneurs, other mobile and home-based workers who come together to break the isolation and distraction of the home office and work independently in a shared working environment."
 });
 
+locationData.push({
+		title: 		"flexidesk",
+		position: 	{lat:-33.830744, lng: 151.126400},
+		content:    "flexidesk",
+		address: 	"Suite 15, 210-216 Victoria Road, Gladesville, NSW 2111",
+		url: 		"http://flexidesk.com.au/index.html",
+		desc: 		"Flexidesk is a Coworking Space situated in Gladesville approximately 20 minutes west of the Sydney CBD. We provide a relaxed, distraction free working environment for professionals, start-up businesses, consultants, road warriors, entrepreneurs and freelancers. Use Flexidesk as your “everyday” business address or just come in when you need to. It’s your choice….."
+});
+
