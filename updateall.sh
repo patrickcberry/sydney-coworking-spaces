@@ -7,7 +7,7 @@
 if [ $# == 1 ]; then
 	comment=$1
 else
-	comment="General update"
+	comment="Inital development - general update"
 fi
 
 git add . && git commit -a -m "$comment" && git push

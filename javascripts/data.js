@@ -327,3 +327,20 @@ locationData.push({
 		desc: 		"Flexidesk is a Coworking Space situated in Gladesville approximately 20 minutes west of the Sydney CBD. We provide a relaxed, distraction free working environment for professionals, start-up businesses, consultants, road warriors, entrepreneurs and freelancers. Use Flexidesk as your “everyday” business address or just come in when you need to. It’s your choice….."
 });
 
+locationData.push({
+		title: 		"wework",
+		position: 	{lat:-33.867729, lng: 151.208841},
+		content:    "wework",
+		address: 	"5 Martin Place Sydney NSW 2000",
+		url: 		"https://www.wework.com/buildings/martin-place--sydney--NSW",
+		desc: 		"In the heart of Sydney's central business district, this Sydney office space puts you on three floors of the beautifully renovated 1916 “Money Box Building,” which got its name because it used to be depicted on coin banks given to kids by the Commonwealth Trading Bank."
+});
+
+locationData.push({
+		title: 		"wework",
+		position: 	{lat:-33.867729, lng: 151.208841},
+		content:    "wework",
+		address: 	"100 Harris St Sydney NSW 2009",
+		url: 		"https://www.wework.com/buildings/pyrmont--sydney--NSW",
+		desc: 		"Once a wool storage facility, this Sydney office space has been transformed into a beautifully designed home for WeWork Pyrmont."
+});
