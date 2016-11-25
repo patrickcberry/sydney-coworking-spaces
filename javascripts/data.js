@@ -338,7 +338,7 @@ locationData.push({
 
 locationData.push({
 		title: 		"wework",
-		position: 	{lat:-33.867729, lng: 151.208841},
+		position: 	{lat:-33.868172, lng: 151.193784},
 		content:    "wework",
 		address: 	"100 Harris St Sydney NSW 2009",
 		url: 		"https://www.wework.com/buildings/pyrmont--sydney--NSW",
